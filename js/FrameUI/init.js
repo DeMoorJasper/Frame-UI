@@ -34,8 +34,10 @@ document.addEventListener("DOMContentLoaded", function(event) {
     require([ROOT_DIR + 'properties'], function() {
       require([ROOT_DIR + 'container'], function() {
         require([ROOT_DIR + 'element'], function() {
-          /* LOAD USER DEFINED OBJECTS */
-          loadUserElements();
+          require([ROOT_DIR + 'uiwindow'], function() {
+            /* LOAD USER DEFINED OBJECTS */
+            loadUserElements();
+          });
         });
       });
     });

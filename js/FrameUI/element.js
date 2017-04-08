@@ -1,5 +1,5 @@
-/* ELEMENT MAIN TEMPLATE */
-console.log("FrameUI: Element loaded.");
+/* Element constructor */
+console.log("FrameUI: Element constructor loaded.");
 
 let element = function() {
   let el = {

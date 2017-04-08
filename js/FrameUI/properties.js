@@ -1,5 +1,5 @@
-/* Property constructor */
-console.log("FrameUI: Property Constructor loaded.");
+/* Properties constructor */
+console.log("FrameUI: Properties Constructor loaded.");
 
 let properties = {
   properties: null,

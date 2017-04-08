@@ -1,5 +1,5 @@
-/* CONTAINER MAIN TEMPLATE */
-console.log("FrameUI: Container loaded.");
+/* Container constructor */
+console.log("FrameUI: Container constructor loaded.");
 
 let container = function() {
   let con = {
