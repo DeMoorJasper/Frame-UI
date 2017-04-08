@@ -1,5 +1,5 @@
 /* CONTAINER MAIN TEMPLATE */
-console.log("Container FRAME UI LOADED.");
+console.log("FrameUI: Container loaded.");
 
 let container = {
   type: "div",
@@ -19,9 +19,6 @@ let container = {
       res += cl + " ";
     }
     res += "' id='" + this.id + "'>" + this.getContent() + "</" + this.type + ">";
-
-    console.log(res);
-
     return res;
   }
 };

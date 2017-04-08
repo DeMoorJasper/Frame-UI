@@ -1,8 +1,10 @@
-console.log("Core FRAME UI LOADED.");
+console.log("FrameUI: Core loaded.");
 
 function init() {
   let main = document.querySelector("#frameui");
 
   container.elements.push(element);
-  main.innerHTML = container.construct();
+  mainwindow.containers.push(container);
+
+  main.innerHTML = mainwindow.construct();
 }

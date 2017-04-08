@@ -1,5 +1,5 @@
 /* ELEMENT MAIN TEMPLATE */
-console.log("Element FRAME UI LOADED.");
+console.log("FrameUI: Element loaded.");
 
 let element = {
   type: "h1",
