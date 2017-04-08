@@ -28,14 +28,11 @@ let loadUserElements = function() {
   let userscripts = ['main', 'block', 'nav', 'navitem', 'ul', 'h1'];
   /* This script will be executed once all dependancies and elements all loaded */
   let initscript = "example";
-
-  let start = function() {
+  
+  require(userscripts, function() {
     require([initscript], function() {
       init();
     });
-  };
-  require(userscripts, function() {
-    start();
   });
 };
 
