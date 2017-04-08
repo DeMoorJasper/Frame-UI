@@ -1,5 +1,5 @@
 /* AN EXAMPLE OF A MAIN WINDOW */
-console.log("FrameUI: Main window loaded.");
+console.log("FrameUI User: Main window loaded.");
 
 frameui.mainwindow = {
   containers: [],

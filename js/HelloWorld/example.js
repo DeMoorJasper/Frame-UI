@@ -1,11 +1,11 @@
 /* EXAMPLE OF FRAMEUI CORE */
-console.log("FrameUI: Core loaded.");
+console.log("FrameUI User: Example loaded.");
 
 function init() {
   let main = document.querySelector("#frameui");
 
   /* FILL THE CONTAINER */
-  frameui.container.elements.push(frameui.element);
+  frameui.block.elements.push(frameui.h1);
 
   /* FILL THE NAV */
   frameui.nav.elements.push(frameui.ul);
@@ -18,9 +18,9 @@ function init() {
 
   /* BUILD THE WINDOW */
   frameui.mainwindow.containers.push(frameui.nav);
-  frameui.mainwindow.containers.push(frameui.container);
-
-  main.innerHTML = frameui.mainwindow.construct();
+  frameui.mainwindow.containers.push(frameui.block);
 
   console.log(frameui);
+
+  main.innerHTML = frameui.mainwindow.construct();
 }
