@@ -1,7 +1,7 @@
 /* AN EXAMPLE OF A MAIN WINDOW */
 console.log("FrameUI: Main window loaded.");
 
-let mainwindow = {
+frameui.mainwindow = {
   containers: [],
   construct: function() {
     let res = "";

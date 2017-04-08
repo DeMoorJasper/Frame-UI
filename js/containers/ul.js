@@ -1,9 +1,8 @@
-/* CONTAINER MAIN TEMPLATE */
-console.log("FrameUI: Container loaded.");
+console.log("FrameUI: ul Container loaded.");
 
-frameui.container = {
-  type: "div",
-  classes: ["block"],
+frameui.ul = {
+  type: "ul",
+  classes: [""],
   id: "",
   elements: [],
   getContent: function() {

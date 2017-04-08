@@ -1,12 +1,11 @@
-/* ELEMENT MAIN TEMPLATE */
-console.log("FrameUI: Element loaded.");
+console.log("FrameUI: Nav item loaded.");
 
-frameui.element = {
-  type: "h1",
-  classes: ["element"],
+frameui.navitem = {
+  type: "li",
+  classes: [""],
   id: "",
   elements: [],
-  content: "Hello world",
+  content: "",
   construct: function() {
     let res = "<" + this.type + " class='";
     for (let cl of this.classes) {

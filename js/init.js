@@ -1,3 +1,6 @@
+/* THIS CONTAINS ALL USED CONTAINERS, ELEMENTS AND WINDOWS */
+let frameui = {};
+
 /* EXECUTE THIS AT THE END */
 let start = function() {
   require(['./js/core'], function() {
@@ -11,7 +14,13 @@ document.addEventListener("DOMContentLoaded", function(event) {
   require(['./js/containers/container'], function() {
     require(['./js/elements/element'], function() {
       require(['./js/windows/main'], function() {
-        start();
+        require(['./js/containers/nav'], function() {
+          require(['./js/elements/navitem'], function() {
+            require(['./js/containers/ul'], function() {
+              start();
+            });
+          });
+        });
       });
     });
   });

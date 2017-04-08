@@ -1,0 +1,27 @@
+body {
+  font-family: sans-serif;
+}
+
+nav {
+  background: #428BCA;
+  text-align: right;
+}
+
+nav ul li {
+  display: inline-block;
+  color: #ffffff;
+  text-transform: uppercase;
+  padding: 10px;
+}
+
+nav ul li:hover {
+  background: #5BC0DE;
+}
+
+h1 {
+  font-size: 1.5rem;
+}
+
+.block {
+  margin: 10px 50px;
+}

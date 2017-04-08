@@ -1,9 +1,8 @@
-/* CONTAINER MAIN TEMPLATE */
-console.log("FrameUI: Container loaded.");
+console.log("FrameUI: Nav Container loaded.");
 
-frameui.container = {
-  type: "div",
-  classes: ["block"],
+frameui.nav = {
+  type: "nav",
+  classes: [""],
   id: "",
   elements: [],
   getContent: function() {
